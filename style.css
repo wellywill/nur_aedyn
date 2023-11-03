@@ -57,14 +57,3 @@
     margin-top: 7rem;
 
 }
-
-img {
-    background: linear-gradient(0deg,
-            rgba(255, 255, 255, 0.828)3%,
-            rgba(255, 255, 255, 0)25%);
-}
-
-.accordion-button {
-    align-items: center;
-    text-align: center;
-}
