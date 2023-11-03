@@ -1,3 +1,7 @@
+body {
+    height: 1200px;
+}
+
 .ucapan {
     text-align: center;
     font-family: 'Lora',
@@ -38,6 +42,7 @@
     border-right: none;
 }
 
+
 .card-img-overlay {
     text-align: center;
     margin-top: 18rem;
@@ -48,12 +53,12 @@
     text-align: center;
     font-family: 'Lora',
         serif;
-    padding-top: 15rem;
+    padding-top: 14rem;
     color: white;
 
 }
 
 .card-img-overlay audio {
-    margin-top: 7rem;
+    margin-top: 6rem;
 
 }
