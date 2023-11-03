@@ -1,0 +1,70 @@
+.ucapan {
+    text-align: center;
+    font-family: 'Lora',
+        serif;
+    padding-top: 50px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+/* Styles for the center container */
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    /* 100% of the viewport height */
+}
+
+/* Style for the typewriter container */
+.typewriter-container {
+    overflow: hidden;
+    border-right: 2px solid #000;
+    /* Adjust the color and thickness as needed */
+    white-space: nowrap;
+    animation: typing 5s steps(40) infinite alternate;
+    /* Adjust the duration as needed */
+}
+
+::after.typewriter-container {
+    border-right: none;
+}
+
+.card-img-overlay {
+    text-align: center;
+    margin-top: 18rem;
+    color: white;
+}
+
+.card-img-overlay h5 {
+    text-align: center;
+    font-family: 'Lora',
+        serif;
+    padding-top: 19.5rem;
+    color: white;
+
+}
+
+.card-img-overlay audio {
+    margin-top: 7rem;
+
+}
+
+img {
+    background: linear-gradient(0deg,
+            rgba(255, 255, 255, 0.828)3%,
+            rgba(255, 255, 255, 0)25%);
+}
+
+.accordion-button {
+    align-items: center;
+    text-align: center;
+}
